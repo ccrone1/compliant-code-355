@@ -6,6 +6,13 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		88FC42CC2AD8DD7B00B88AFA /* MEM05-C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FC42BF2AD8DD7A00B88AFA /* MEM05-C.cpp */; };
+		88FC42CD2AD8DD7B00B88AFA /* MEM00-C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FC42C32AD8DD7A00B88AFA /* MEM00-C.cpp */; };
+		88FC42CE2AD8DD7B00B88AFA /* MEM50-CPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FC42C72AD8DD7B00B88AFA /* MEM50-CPP.cpp */; };
+		88FC42CF2AD8DD7B00B88AFA /* MEM04-C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FC42CB2AD8DD7B00B88AFA /* MEM04-C.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		88B9BAEB2AD1EFA80041DC07 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +42,19 @@
 		88B9BB0F2AD1EFE30041DC07 /* sorted.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sorted.txt; sourceTree = "<group>"; };
 		88B9BB112AD1EFE30041DC07 /* INT30.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = INT30.cpp; sourceTree = "<group>"; };
 		88B9BB132AD1EFE30041DC07 /* OOP55.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OOP55.cpp; sourceTree = "<group>"; };
+		88FC42BF2AD8DD7A00B88AFA /* MEM05-C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM05-C.cpp"; sourceTree = "<group>"; };
+		88FC42C02AD8DD7A00B88AFA /* MEM53-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM53-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C12AD8DD7A00B88AFA /* MEM52-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM52-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C22AD8DD7A00B88AFA /* MEM57-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM57-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C32AD8DD7A00B88AFA /* MEM00-C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM00-C.cpp"; sourceTree = "<group>"; };
+		88FC42C42AD8DD7A00B88AFA /* MEM55-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM55-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C52AD8DD7A00B88AFA /* MEM56-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM56-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C62AD8DD7A00B88AFA /* MEM01-C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM01-C.cpp"; sourceTree = "<group>"; };
+		88FC42C72AD8DD7B00B88AFA /* MEM50-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM50-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C82AD8DD7B00B88AFA /* MEM54-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM54-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42C92AD8DD7B00B88AFA /* MSC52-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MSC52-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42CA2AD8DD7B00B88AFA /* MEM51-CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM51-CPP.cpp"; sourceTree = "<group>"; };
+		88FC42CB2AD8DD7B00B88AFA /* MEM04-C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MEM04-C.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +87,7 @@
 		88B9BAEF2AD1EFA80041DC07 /* compliant-code-355 */ = {
 			isa = PBXGroup;
 			children = (
+				88F6F6712AD7904C00018A2E /* brycen_compliant_code */,
 				88B9BAF72AD1EFE30041DC07 /* copliant_code */,
 			);
 			path = "compliant-code-355";
@@ -198,6 +219,26 @@
 			path = OOP55;
 			sourceTree = "<group>";
 		};
+		88F6F6712AD7904C00018A2E /* brycen_compliant_code */ = {
+			isa = PBXGroup;
+			children = (
+				88FC42C32AD8DD7A00B88AFA /* MEM00-C.cpp */,
+				88FC42C62AD8DD7A00B88AFA /* MEM01-C.cpp */,
+				88FC42CB2AD8DD7B00B88AFA /* MEM04-C.cpp */,
+				88FC42BF2AD8DD7A00B88AFA /* MEM05-C.cpp */,
+				88FC42C72AD8DD7B00B88AFA /* MEM50-CPP.cpp */,
+				88FC42CA2AD8DD7B00B88AFA /* MEM51-CPP.cpp */,
+				88FC42C12AD8DD7A00B88AFA /* MEM52-CPP.cpp */,
+				88FC42C02AD8DD7A00B88AFA /* MEM53-CPP.cpp */,
+				88FC42C82AD8DD7B00B88AFA /* MEM54-CPP.cpp */,
+				88FC42C42AD8DD7A00B88AFA /* MEM55-CPP.cpp */,
+				88FC42C52AD8DD7A00B88AFA /* MEM56-CPP.cpp */,
+				88FC42C22AD8DD7A00B88AFA /* MEM57-CPP.cpp */,
+				88FC42C92AD8DD7B00B88AFA /* MSC52-CPP.cpp */,
+			);
+			path = brycen_compliant_code;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,6 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FC42CC2AD8DD7B00B88AFA /* MEM05-C.cpp in Sources */,
+				88FC42CE2AD8DD7B00B88AFA /* MEM50-CPP.cpp in Sources */,
+				88FC42CD2AD8DD7B00B88AFA /* MEM00-C.cpp in Sources */,
+				88FC42CF2AD8DD7B00B88AFA /* MEM04-C.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

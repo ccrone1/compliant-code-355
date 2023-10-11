@@ -18,7 +18,7 @@ int main() {
             cout << "Your sentence (or other input is): " << input;
         }
         else {
-            cerr << "The user input is too long, and we are goint to avoid truncation" << endl; // I print out an error as opposed to having unintended truncation
+            cerr << "The user input is too long, and we are going to avoid truncation" << endl; // I print out an error as opposed to having unintended truncation
         }
     }
     
