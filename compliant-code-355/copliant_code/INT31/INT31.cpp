@@ -7,7 +7,7 @@ using namespace std;
  * @brief Safely convert a smaller signed integer to a larger unsigned integer without data loss.
  *
  * @param si A signed integer.
- * @return The unsigned integer equivalent of si, or 0 if si is negative.
+ * @return The unsigned integer equivalent of si, or the absolute value if the value was negative
  */
 unsigned int convert(int si) {
     if (si >= 0) {
