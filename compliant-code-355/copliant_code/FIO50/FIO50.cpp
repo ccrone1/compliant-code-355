@@ -20,7 +20,7 @@ int main() {
     }
     
     // Appends data to the file through the fstream
-    file << "Hello, World!\n";
+    file << "Added text to the end of the file" << endl;
     
     // Ensure proper positioning before reading through the same stream (makes sure we're at the beginning of the file for reading after we wrote to the file)
     file.seekg(0, ios::beg);
